@@ -4,10 +4,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "build": "vercel build",
+    "build": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "dependencies": {
+  ""devDependencies": {
+  "vercel": "^latest"
     "lucide-react": "^0.344.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
